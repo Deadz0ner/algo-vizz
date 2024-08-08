@@ -1,0 +1,295 @@
+visualization {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.heading {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.visualization-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Max width to ensure it's not too wide */
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.start-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.start-button:hover {
+    background-color: #0056b3;
+}
+
+.array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+}
+
+.bar {
+    width: 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: height 0.3s ease;
+}
+
+.bar.sorted {
+    background-color: #28a745; /* Color for sorted bars */
+}
+
+.algorithm-description {
+    max-width: 800px; /* Ensures the description box is not too wide */
+    text-align: center;
+}
+.visualization {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.heading {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.visualization-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Max width to ensure it's not too wide */
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.start-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.start-button:hover {
+    background-color: #0056b3;
+}
+
+.array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+}
+
+.bar {
+    width: 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: height 0.3s ease;
+}
+
+.bar.sorted {
+    background-color: #28a745; /* Color for sorted bars */
+}
+
+.algorithm-description {
+    max-width: 800px; /* Ensures the description box is not too wide */
+    text-align: center;
+}
+.adjacency-list {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+.adjacency-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.adjacency-list li {
+    margin-bottom: 5px;
+}
+
+.graph-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.graph-node {
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+.graph-node.visited {
+    background-color: #28a745; /* Color for visited nodes */
+}
+
+.edges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.arrow-container {
+    margin: 5px;
+}
+
+.arrow {
+    font-size: 1.2em;
+}
+
+.traversal-path {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+.visualization {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.heading {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.visualization-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    width: 80%;
+    max-width: 800px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.start-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.start-button:hover {
+    background-color: #0056b3;
+}
+
+.adjacency-list {
+    margin-bottom: 20px;
+}
+
+.adjacency-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.adjacency-list li {
+    margin-bottom: 5px;
+}
+
+.graph-container {
+    margin-bottom: 20px;
+}
+
+/* Style for graph nodes if using SVG or graphical representation */
+.graph-node {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 40px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.node-info {
+    font-size: 1em;
+    margin: 5px;
+}
+
+.edges {
+    margin-bottom: 20px;
+}
+
+.traversal-path {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.algorithm-description {
+    max-width: 800px;
+    text-align: center;
+}

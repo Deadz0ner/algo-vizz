@@ -1,0 +1,57 @@
+.hero {
+    height: 83vh;
+    background-color: #007bff; /* A vibrant background color */
+    color: #fff !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden; /* Ensure content does not overflow */
+}
+
+.hero-title {
+    font-size: 3em;
+    color: #ffffff !important;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-out;
+}
+
+.hero-description {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    animation: fadeInUp 1s ease-out 0.5s;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff !important; /* Text color */
+    background-color: #e90518 !important ; /* Initial red background color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Transition for color change */
+}
+
+.cta-button:hover {
+    background-color: #d01886 !important; /* Darker shade for hover effect */
+    color: #e0e0e0; /* Optional: Change text color on hover */
+}
